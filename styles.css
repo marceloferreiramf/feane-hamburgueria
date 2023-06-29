@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 30px;
+}
+.logo-feane {
+  width: 150px;
+  font-size: 30px;
+  padding: 15px;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.button-online {
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 32px 64px;
+  padding: 8px 15px;
+  background-color: rgb(247, 181, 0);
+  color: white;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.buttonMN {
+  font-size: 15px;
+  padding: 15px;
+  background-color: transparent;
+  border: 3px solid transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.6s;
+}
+main {
+  background-image: url(images/hero-bg.jpg);
+  height: 550px;
+  background-position: left;
+}
+h1 {
+  margin-left: 100px;
+  padding-top: 100px;
+  font-size: 40px;
+  color: white;
+  font-family: "Pinyon Script", cursive;
+}
+h3 {
+  margin-left: 100px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.button-order {
+  display: flex;
+  padding: 8px 10px;
+  background-color: rgb(247, 181, 0);
+  border: 3px solid transparent;
+  color: white;
+  border-radius: 32px 64px;
+  margin-left: 90px;
+  padding-top: 10px;
+  transition: 0.6s;
+  cursor: pointer;
+}
